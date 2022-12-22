@@ -1,0 +1,31 @@
+#root {
+  width: 100vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 2em;
+}
+
+#ufsj {
+  height: 80%;
+}
+
+#top-bar {
+  position: fixed;
+  background: gray;
+  height: 3em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
