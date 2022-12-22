@@ -8,6 +8,7 @@ import Statute from './pages/Statute/Statute'
 import Contact from './pages/Contact/Contact'
 
 import './App.css'
+import './Animation.css'
 import ufsjLogo from './assets/ufsj.jpg'
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
       <div id="top-bar">
         <img id="ufsj" src={ufsjLogo} alt="UFSJ Logo" />
       </div>
-
-      <Header />
+      <Router>
+        <Header />
+      </Router>
 
       <Router>
         <Routes>

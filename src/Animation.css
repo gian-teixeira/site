@@ -1,0 +1,30 @@
+* {
+    animation-timing-function: cubic-bezier(.55,.32,.41,.9);
+    transition: 0.5s;
+}
+
+.slide-top {
+    animation: slide-top 0.5s both;
+}
+
+.slide-bottom {
+    animation: slide-bottom 0.5s both;
+}
+
+@keyframes slide-top {
+    0%{
+        transform: translateY(-15%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-bottom {
+    0%{
+        transform: translateY(15%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
