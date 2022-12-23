@@ -17,10 +17,11 @@ function App() {
       <div id="top-bar">
         <img id="ufsj" src={ufsjLogo} alt="UFSJ Logo" />
       </div>
+
       <Router>
         <Header />
       </Router>
-
+      
       <Router>
         <Routes>
           <Route path="/" element={<Home />}/>
