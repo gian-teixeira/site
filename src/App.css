@@ -12,7 +12,7 @@
 
 #top-bar {
   position: fixed;
-  background: gray;
+  background: rgb(190, 190, 190);
   height: 3em;
   top: 0;
   left: 0;
@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .card {

@@ -1,5 +1,6 @@
 * {
     animation-timing-function: cubic-bezier(.55,.32,.41,.9);
+    animation-duration: 0.5s;
     transition: 0.5s;
 }
 
@@ -26,5 +27,23 @@
     }
     100%{
         transform: translateY(0);
+    }
+}
+
+@keyframes slide-left {
+    0%{
+        transform: translateX(-15%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(15%);
+    }
+    100%{
+        transform: translateX(0);
     }
 }

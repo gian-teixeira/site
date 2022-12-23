@@ -11,18 +11,22 @@ import './App.css'
 import './Animation.css'
 import ufsjLogo from './assets/ufsj.jpg'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+  AOS.init({
+    duration: 1000
+  })
+
   return (
     <div className="App">
       <div id="top-bar">
         <img id="ufsj" src={ufsjLogo} alt="UFSJ Logo" />
       </div>
-
-      <Router>
-        <Header />
-      </Router>
       
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/membros" element={<Members />}/>

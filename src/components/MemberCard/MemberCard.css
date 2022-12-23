@@ -1,0 +1,93 @@
+.member-card {
+    width: 100%;
+    height: 25em;
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.member-info-container {
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    border-top: 1px solid gray;
+    bottom: 0;
+    z-index: -1;
+}
+
+.member-card.left .member-info-container {
+    left: auto;
+    right: 5em;
+    padding: 0 0 0 10em;
+    animation: slide-left 0.5s both;
+}
+
+.member-card.right .member-info-container {
+    left: 5em;
+    right: auto;
+    padding: 0 5em 0 5em;
+    animation: slide-right 0.5s both;
+}
+
+.member-info {
+    margin-top: 5em;
+}
+
+.member-info > *:hover{
+    transform: scale(1.05);
+}
+
+.info {
+    margin: 0;
+}
+.info-name {
+    color: var(--highlight-color);
+}
+.desc {
+    width: 90%;
+}
+
+
+.member-img {
+    position: absolute;
+    background: var(--highlight-color);
+    height: 30em;
+    width: 20em;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: auto;
+    border: 2px solid var(--highlight-color);
+}
+.member-img::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 2px solid var(--dark-color);
+    border-radius: inherit;
+    top: .5em;
+}
+
+.member-card.left .member-img {
+    left: 0;
+    right: auto;
+}
+.member-card.left .member-img::before {
+    left: .5em;
+}
+.member-card.left .member-img:hover {
+    transform: translate(5%, -2%);
+}
+
+.member-card.right .member-img {
+    left: auto;
+    right: 0;
+}
+.member-card.right  .member-img::before {
+    right: .5em;
+}
+.member-card.right .member-img:hover {
+    transform: translate(-5%, -2%);
+}
