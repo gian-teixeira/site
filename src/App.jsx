@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
 
 import Home from './pages/Home/Home'
-import Members from './pages/Members/Members'
+import Team from './pages/Team/Team'
 import Statute from './pages/Statute/Statute'
 import Contact from './pages/Contact/Contact'
 
@@ -29,7 +29,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/membros" element={<Members />}/>
+          <Route path="/team" element={<Team />}/>
           <Route path="/estatuto" element={<Statute />}/>
           <Route path="/contato" element={<Contact />}/>
         </Routes>

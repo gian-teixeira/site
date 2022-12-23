@@ -5,7 +5,7 @@ header {
     align-items: center;
     width: 100%;
     height: 8em;
-    margin-bottom: 5em;
+    margin-bottom: 7em;
 }
 
 .header-logo {
@@ -13,26 +13,18 @@ header {
     align-items: center;
     justify-content: center;
 }
+.header-logo a {
+    padding-right: 2em;
+    margin-right: 2em;
+    border-right: 1px solid gray;
+}
 .header-logo img {
-    height: 11em;
-    transform: translateY(1em);
+    height: 8em;
 }
-.header-logo img:hover{
-    transform: rotate(5deg);
-    cursor: default;
+.header-logo h1 {
+    font-size: 3em;
 }
-.header-logo div {
-    transform: rotate(90deg);
-    display: flex;
-    justify-content: center;
-    padding-left: 1.5em;
-    margin-left: -4em;
-}
-.header-logo div h1{
-    font-weight: bold;
-    font-size: 1.1em;
-}
-.header-logo div:hover h1{
+.header-logo h1:hover{
     transform: rotate(-5deg);
     cursor: default;
 }
@@ -46,7 +38,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1.5em 2.5em;
+    margin: 1.5em 2em;
     padding: 1em 0;
     position: relative;
     cursor: pointer;
@@ -65,6 +57,9 @@ header {
     color: #818181;
     transform: translateY(-0.3em) rotate(-3deg);
     transition: 0.2s ease-in;
+}
+.header-li a.active:hover {
+    transform: translateY(-0.3em) rotate(3deg);
 }
 .header-li a::after {
     content: '';

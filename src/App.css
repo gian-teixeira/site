@@ -30,3 +30,25 @@
 .read-the-docs {
   color: #888;
 }
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  color: var(--dark-color);
+  max-width: 50%;
+  padding-bottom: 2em;
+  border-bottom: 2px solid var(--highlight-color);
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: var(--highlight-color);
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--dark-color);
+  max-width: 50%;
+}
+
+p {
+  max-width: 80%;
+}

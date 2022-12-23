@@ -1,4 +1,4 @@
-import './Members.css'
+import './Team.css'
 
 import MemberCard from '../../components/MemberCard/MemberCard'
 
@@ -32,6 +32,16 @@ const members = [
 function Members(){
     return (
         <div id="members">
+            <p>A atual equipe de maratona do DCOMP/UFSJ é a que segue.</p>
+            <div className="coord">
+                <p className="info"><b className="coord-info-name">COORDENADOR:</b> prof. Elverton Carvalho Fazzion</p>
+                <p className="info"><b className="coord-info-name">ORIENTADORES:</b> profs. Alexandre Pigozzo e Leonardo Rocha</p>
+            </div>
+            <div className="team-logo">
+                <img src="./src/assets/logo.svg" alt="" />
+                <div><h1>SEM CONDIÇÕES</h1></div>
+            </div>
+            <div id="fund">Time fundador</div>
             { members.map((element, index) => {
                 return (
                     <MemberCard 
