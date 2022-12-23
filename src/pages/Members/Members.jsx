@@ -40,7 +40,7 @@ function Members(){
                         age={element.age} 
                         photoID={element.photoID}
                         desc={element.desc}
-                        side={index % 2 == 0 ? "left" : "right"}
+                        side={index % 2 != 0 ? "left" : "right"}
                     />
                 );
             })}

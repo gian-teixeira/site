@@ -6,7 +6,8 @@ function Header(){
     return(
         <header>
             <div className="header-logo">
-                <h1>LOGO</h1>
+                <img src="./src/assets/logo.svg" alt="" />
+                <div><h1>SEM CONDIÇÕES</h1></div>
             </div>
             <nav className="header-nav">
                 <ul className="header-ul">

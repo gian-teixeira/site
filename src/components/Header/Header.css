@@ -13,6 +13,29 @@ header {
     align-items: center;
     justify-content: center;
 }
+.header-logo img {
+    height: 11em;
+    transform: translateY(1em);
+}
+.header-logo img:hover{
+    transform: rotate(5deg);
+    cursor: default;
+}
+.header-logo div {
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5em;
+    margin-left: -4em;
+}
+.header-logo div h1{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.header-logo div:hover h1{
+    transform: rotate(-5deg);
+    cursor: default;
+}
 
 .header-ul {
     list-style: none;
@@ -40,7 +63,7 @@ header {
 }
 .header-li a:hover {
     color: #818181;
-    transform: translateY(-0.3em);
+    transform: translateY(-0.3em) rotate(-3deg);
     transition: 0.2s ease-in;
 }
 .header-li a::after {
