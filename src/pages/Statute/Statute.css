@@ -1,0 +1,7 @@
+#statute ul {
+    list-style: decimal;
+}
+
+#statute ul ul{
+    list-style: lower-alpha;
+}
