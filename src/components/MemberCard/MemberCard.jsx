@@ -1,9 +1,9 @@
 import './MemberCard.css'
 
-function Info(props){
-    return(
-        <p><b>{props.info}:</b> {props.text}</p>
-    );
+import giancarlo from '../../assets/photo/giancarlo.jpg'
+
+const images = {
+    'giancarlo': giancarlo
 }
 
 function MemberCard(props){
@@ -19,7 +19,7 @@ function MemberCard(props){
                 <div 
                     className="member-img"
                     style = {{
-                        background: `url("./src/assets/photo/${props.photoID}")`,
+                        background: `url(${images[props.photoID]})`,
                         backgroundSize: 'cover'
                     }} 
                 ></div>
