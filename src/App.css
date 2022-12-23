@@ -16,11 +16,21 @@
   height: 3em;
   top: 0;
   left: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
+  padding: 0 5em 0 5em;
   align-items: center;
   z-index: 10;
+  width: 100%;
+}
+
+#top-container {
+  width: 1280px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateX(-7%);
 }
 
 .card {
@@ -51,4 +61,13 @@ h3 {
 
 p {
   max-width: 80%;
+}
+
+.highlight-text {
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+a {
+  color: gray;
 }

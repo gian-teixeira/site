@@ -1,8 +1,13 @@
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .team-logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 3em;
 }
 .team-logo img {
     height: 11em;
@@ -11,13 +16,13 @@
     transform: rotate(5deg);
     cursor: default;
 }
-.team-logo div {
+.team-logo #team-name {
     transform: rotate(90deg);
     display: flex;
     justify-content: center;
     margin-left: -4em;
 }
-.team-logo div h1{
+.team-logo #team-name h1{
     font-weight: bold;
     font-size: 1.1em;
 }
@@ -31,18 +36,11 @@
 }
 
 .coord {
-    background: rgb(233, 233, 233);
     height: 10em;
     width: 36em;
-    border-radius: .7em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 4em;
-    margin: 2em auto;
-    border: 1px solid var(--dark-color);
+    margin: 2em 0;
 }
 
-#fund {
-    text-align: center;
-}

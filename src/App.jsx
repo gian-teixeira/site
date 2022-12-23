@@ -1,11 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 import Header from './components/Header/Header'
 
 import Home from './pages/Home/Home'
 import Team from './pages/Team/Team'
 import Statute from './pages/Statute/Statute'
-import Contact from './pages/Contact/Contact'
+import Resources from './pages/Resources/Resources'
+import Training from './pages/Training/Training'
+import Contact from './pages/Contact/Contact';
 
 import './App.css'
 import './Animation.css'
@@ -30,11 +34,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/team" element={<Team />}/>
+          <Route path="/treino" element={<Training />}/>
           <Route path="/estatuto" element={<Statute />}/>
+          <Route path="/recursos" element={<Resources />}/>
           <Route path="/contato" element={<Contact />}/>
         </Routes>
       </Router>
-
     </div>
   );
 }

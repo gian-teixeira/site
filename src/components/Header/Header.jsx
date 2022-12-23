@@ -21,7 +21,11 @@ function Header(){
                     <li className="header-li slide-top">
                         <NavLink to="team">EQUIPE</NavLink></li>
                     <li className="header-li slide-top">
+                        <NavLink to="treino">TREINO</NavLink></li>
+                    <li className="header-li slide-top">
                         <NavLink to="estatuto">ESTATUTO</NavLink></li>                    
+                    <li className="header-li slide-top">
+                        <NavLink  to="recursos">RECURSOS</NavLink></li>
                     <li className="header-li slide-top">
                         <NavLink  to="contato">CONTATO</NavLink></li>
                 </ul>
