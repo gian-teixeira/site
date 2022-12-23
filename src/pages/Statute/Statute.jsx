@@ -16,7 +16,7 @@ function Statute(){
 
             <p><b>Coordenador: </b>Elverton Carvalho Fazzion</p>
             <p><b>Discentes: </b>Giancarlo Oliveira Teixeira, Guilherme Bittencourt, Guilherme Fonseca do Nascimento, Yan Ribeiro Andrade</p>
-            <p><b>Orientadores: Elverton Carvalho Fazzion, Alexandre Bittencourt Pigozzo, Leonardo Chaves Dutra da Rocha</b></p>
+            <p><b>Orientadores: </b>Elverton Carvalho Fazzion, Alexandre Bittencourt Pigozzo, Leonardo Chaves Dutra da Rocha</p>
 
             <h3>OBJETIVOS</h3>
 
@@ -26,10 +26,9 @@ function Statute(){
             </p>
 
             <h3>DA EQUIPE</h3>
-
+    
             <ul>
-                <li>
-                    Das vagas
+                <li> Das vagas
                     <ul>
                         <li>A equipe é composta por, no máximo, 12 discentes.</li>
                         <li>Para assumir uma vaga em aberto na equipe, o candidato deverá 
@@ -37,22 +36,16 @@ function Statute(){
                             e realizar uma entrevista com o Coordenador.</li>
                     </ul>
                 </li>
-            </ul>
 
-            <ul>
-                <li>
-                    Da elegibilidade
+                <li> Da elegibilidade
                     <ul>
                         <li>Poderá se candidatar para uma vaga na equipe alunos de qualquer curso da UFSJ.</li>
                         <li>O aluno deverá ser elegível para participar de, pelo menos, uma edição da Maratona 
                             Mineira de Programação e da  Maratona Brasileira de Programação.</li>
                     </ul>
                 </li>
-            </ul>
 
-            <ul>
-                <li>
-                    Das obrigações dos membros
+                <li> Das obrigações dos membros
                     <ul>
                         <li>Participar dos treinamentos da equipe.</li>
                         <li>Comunicar problemas sobre o treinamento para o capitão da equipe.</li>
@@ -64,44 +57,35 @@ function Statute(){
                         <li>Conhecer e cumprir as normas do regimento.</li>
                     </ul>
                 </li>
-            </ul>
 
-            <ul>
-                <li>
-                    Da seleção do capitão
+                <li> Da seleção do capitão
                     <ul>
                         <li>O capitão será selecionado pelo coordenador da equipe levando em consideração o desempenho acadêmico, 
                             desempenho em competições e tempo de participação na equipe.</li>
                     </ul>
                 </li>
-            </ul>
 
-            <ul>
-                <li>
-                    Das obrigações do capitão
+                <li> Das obrigações do capitão
                     <ul>
                         <li>Comunicar ao orientador qualquer problema ocorrido no ambiente do treinamento.</li>
                         <li>Organizar os horários de treinamentos da equipe.</li>
                         <li>Cumprir e fazer cumprir as normas deste estatuto.</li>
                     </ul>
                 </li>
+
             </ul>
 
             <h3>DA DENOMINAÇÃO</h3>
 
             <ul>
-                <li>
-                    Do nome da equipe
+                <li> Do nome da equipe                   
                     <ul>
                         <li>O nome oficial da equipe de maratona de programação do DCOMP/UFSJ  é "Sem Condições". </li>
                         <li>O nome poderá ser alterado em comum acordo entre os membros da equipe.</li>
                     </ul>
                 </li>
-            </ul>
 
-            <ul>
-                <li>
-                    Do nome dos times
+                <li> Do nome dos times
                     <ul>
                         <li>O nome dos times da equipe deverá iniciar com [XXXXXXX].</li>
                         <li>O time composto pelos discentes fundadores poderá utilizar somente o nome da equipe.</li>

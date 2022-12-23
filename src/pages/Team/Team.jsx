@@ -35,15 +35,16 @@ function Members(){
         <div id="members">
             <p>A atual equipe de maratona do DCOMP/UFSJ é a que segue.</p>
 
-            <div id="fund"><h3>Time fundador</h3></div>
+            <div className="coord">
+                <p className="info"><b className="coord-info-name">COORDENADOR:</b> prof. Elverton Carvalho Fazzion</p>
+                <p className="info"><b className="coord-info-name">ORIENTADORES:</b> profs. Alexandre Pigozzo e Leonardo Rocha</p>
+            </div>
+
+            
             <div className="team">
+                <div data-aus="animate__bounce" className="char">Time fundador</div>
                 <div className="team-logo">
                     <img src={logo} alt="" />
-                    <div id="team-name"><h1>SEM CONDIÇÕES</h1></div>
-                </div>
-                <div className="coord">
-                    <p className="info"><b className="coord-info-name">COORDENADOR:</b> prof. Elverton Carvalho Fazzion</p>
-                    <p className="info"><b className="coord-info-name">ORIENTADORES:</b> profs. Alexandre Pigozzo e Leonardo Rocha</p>
                 </div>
             </div>
 

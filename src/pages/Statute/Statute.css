@@ -5,3 +5,7 @@
 #statute ul ul{
     list-style: lower-alpha;
 }
+
+#statute li {
+    margin-top: 1em;
+}

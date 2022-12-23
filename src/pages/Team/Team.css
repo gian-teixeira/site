@@ -1,7 +1,27 @@
 .team {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.char {
+    padding: .5em;
+    margin: .5em;
+    position: relative;
+    width: 11em;
+    display: flex;
+    justify-content: center;
+}
+.char::after{
+    content: '}';
+    position: absolute;
+    right: 0;
+}
+.char::before{
+    content: '{';
+    position: absolute;
+    left: 0;
 }
 
 .team-logo {
@@ -16,31 +36,16 @@
     transform: rotate(5deg);
     cursor: default;
 }
-.team-logo #team-name {
-    transform: rotate(90deg);
-    display: flex;
-    justify-content: center;
-    margin-left: -4em;
-}
-.team-logo #team-name h1{
-    font-weight: bold;
-    font-size: 1.1em;
-}
-.team-logo div:hover h1{
-    transform: rotate(-5deg);
-    cursor: default;
-}
 
 .coord-info-name {
     color: var(--dark-color);
 }
 
 .coord {
-    height: 10em;
+    height: 5em;
     width: 36em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2em 0;
 }
 

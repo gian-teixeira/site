@@ -25,7 +25,7 @@ function Resources(){
                 <li><a href="https://homepages.dcc.ufmg.br/~loureiro/md.html" target="_blank">Matemática Discreta</a> (slides na área de Documentos) </li>
             </ul>
 
-            <a href="https://drive.google.com/file/d/1UUeeQZG2pmr9WOwqwemaz4nh0ocj0rAM/view?usp=sharing">Tutorial com dicas para resolução de problemas de maratona</a>
+            <a href="https://drive.google.com/file/d/1UUeeQZG2pmr9WOwqwemaz4nh0ocj0rAM/view?usp=sharing"><b>Tutorial com dicas para resolução de problemas de maratona</b></a>
         </div>
     );
 }

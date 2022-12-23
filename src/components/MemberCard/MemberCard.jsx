@@ -7,10 +7,6 @@ const images = {
 }
 
 function MemberCard(props){
-    /*const images = require.context('./photo', true);
-    image = ID => (assets(`./${ID}`).default);*/
-
-
     return (
             <div 
                 data-aos="fade-up" 
