@@ -19,8 +19,13 @@ function MemberCard(props){
                         backgroundSize: 'cover'
                     }} 
                 ></div>
+
+
                 <div className="member-info-container">
                     <div className="member-info">
+                        <div className="leader">
+                            {props.leader ? "Leader" : ""}
+                        </div>
                         <p className="info"><b className="info-name">NOME:</b> {props.name}</p>
                         <p className="info"><b className="info-name">IDADE:</b> {props.age}</p>
                         <p className="desc">{props.desc}</p>

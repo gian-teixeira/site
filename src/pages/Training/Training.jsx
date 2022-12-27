@@ -5,7 +5,7 @@ function Training(){
             
             <p>Os treinos presenciais ocorrem todas às YYYY, das XX às XX, na sal ZZZZ</p>
 
-            <p>Existe também um grupo de discussão: (podemos colocar alguma plataforma como Discord)
+            <p>Existe também um grupo no discord: <a href="https://discord.gg/ShQBhEmR">https://discord.gg/ShQBhEmR</a> 
             <br/>Para entrar, basta enviar um email para yyyy solicitando o acesso.</p>
 
         </div>
