@@ -50,7 +50,7 @@ function Home(){
             <h3>Como participar da equipe de Maratona de programação do DCOMP/UFSJ?</h3>
             <p>
                 A equipe de maratona de programação do DCOMP/UFSJ tem 12 vagas (3 times). Para fazer parte da equipe e competir pela instituição, o aluno deverá completar, 
-                pelo menos, os roteiros de 0 a 7 do seguinte link http://wiki.maratona.dcc.ufmg.br/index.php/Roteiros e enviar um email para o coordenador da equipe 
+                pelo menos, os roteiros de 0 a 7 do seguinte link <a href="http://wiki.maratona.dcc.ufmg.br/index.php/Roteiros" target="_blank"></a> e enviar um email para o coordenador da equipe 
                 (<a href="mailto: fazzion@ufsj.edu.br" target="_blank">fazzion@ufsj.edu.br</a>) para fazer uma entrevista. Entretanto todos que quiserem fazer parte do treinamento serão bem vindos 
                 e podem comparecer nos horários de treinamento indicados. 
             </p>

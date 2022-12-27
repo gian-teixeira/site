@@ -43,7 +43,6 @@ function Members(){
                 <p className="info"><b className="coord-info-name">COORDENADOR:</b> prof. Elverton Carvalho Fazzion</p>
                 <p className="info"><b className="coord-info-name">ORIENTADORES:</b> profs. Alexandre Pigozzo e Leonardo Rocha</p>
             </div>
-
             
             <div className="team">
                 <div data-aus="animate__bounce" className="char">Time fundador</div>

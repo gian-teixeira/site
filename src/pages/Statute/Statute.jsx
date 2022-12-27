@@ -87,7 +87,7 @@ function Statute(){
 
                 <li> Do nome dos times
                     <ul>
-                        <li>O nome dos times da equipe deverá iniciar com [XXXXXXX].</li>
+                        <li>O nome dos times da equipe deverá iniciar com [XXXXXXX]. <b style={{ color: "red" }} >(Em análise)</b> </li>
                         <li>O time composto pelos discentes fundadores poderá utilizar somente o nome da equipe.</li>
                     </ul>
                 </li>
