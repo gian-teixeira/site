@@ -21,7 +21,7 @@ function Resources(){
             <ul>
                 <li><a href="https://drive.google.com/drive/folders/1HvksTsidms0DwwL2acC8kgJ962Rp7-M8?usp=sharing" target="_blank">AEDS I</a></li>
                 <li><a href="https://drive.google.com/drive/folders/1DrVU70IUhLMmYj6sRBrDcPOV44bfwk7i?usp=sharing" target="_blank">AEDS II</a></li>
-                <li><a href="" target="_blank">AEDS III</a></li>
+                <li><a target="_blank">AEDS III</a></li>
                 <li><a href="https://homepages.dcc.ufmg.br/~loureiro/md.html" target="_blank">Matemática Discreta</a> (slides na área de Documentos) </li>
             </ul>
 

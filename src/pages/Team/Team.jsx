@@ -5,32 +5,30 @@ import logo from '../../assets/logo.svg'
 
 const members = [
     {
-        name: "Giancarlo Oliveira Teixeira",
-        age: 19,
-        photoID: 'giancarlo',
+        name: "Guilherme Fonseca do Nascimento",
+        age: 20,
+        photoID: 'guilherme',
         leader: true,
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        desc: `Graduando em Ciência da Computação pela Universidade Federal de São João del-Rei, 
+        atualmente cursando o 5º período. Jogos, RPGs e livros são seus principais interesses 
+        além da maratona.`
+    },
+    {
+        name: "Yan Ribeiro Andrade",
+        age: 20,
+        photoID: 'yan',
+        leader: false,
+        desc: `Aluno do 5° período de graduação do curso de Ciência da Computação da UFSJ. Além da 
+        maratona, seus principais interesses são: esportes, inovações tecnológicas e viajar.`
     },
     {
         name: "Giancarlo Oliveira Teixeira",
         age: 19,
         photoID: 'giancarlo',
         leader: false,
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-    },
-    {
-        name: "Giancarlo Oliveira Teixeira",
-        age: 19,
-        photoID: 'giancarlo',
-        leader: false,
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-    },
-    {
-        name: "Giancarlo Oliveira Teixeira",
-        age: 19,
-        photoID: 'giancarlo',
-        leader: false,
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        desc: `Aluno do 3º período de graduação de Ciência da Computação. 
+        Gosta de design, jogos, desenvolvimento de software, matemática e 
+        desafios em geral.`
     }
 ]
 

@@ -1,9 +1,13 @@
 import './MemberCard.css'
 
 import giancarlo from '../../assets/photo/giancarlo.jpg'
+import guilherme from '../../assets/photo/guilherme.jpg'
+import yan from '../../assets/photo/yan.jpg'
 
 const images = {
-    'giancarlo': giancarlo
+    'giancarlo': giancarlo,
+    'guilherme': guilherme,
+    'yan': yan
 }
 
 function MemberCard(props){

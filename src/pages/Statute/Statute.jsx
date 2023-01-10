@@ -84,13 +84,6 @@ function Statute(){
                         <li>O nome poderá ser alterado em comum acordo entre os membros da equipe.</li>
                     </ul>
                 </li>
-
-                <li> Do nome dos times
-                    <ul>
-                        <li>O nome dos times da equipe deverá iniciar com [XXXXXXX]. <b style={{ color: "red" }} >(Em análise)</b> </li>
-                        <li>O time composto pelos discentes fundadores poderá utilizar somente o nome da equipe.</li>
-                    </ul>
-                </li>
             </ul>
 
             <h3>DO CERTIFICADO DE PARTICIPAÇÃO</h3>
